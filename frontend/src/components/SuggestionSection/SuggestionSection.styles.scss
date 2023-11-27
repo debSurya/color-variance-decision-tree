@@ -1,0 +1,35 @@
+.activity-wrapper {
+  height: 100vh;
+  background: rgb(38, 36, 59);
+  background: linear-gradient(
+    0deg,
+    rgba(38, 36, 59, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+
+  .suggestion-wrapper {
+    padding: 1rem;
+    border-radius: 8px;
+    width: 70%;
+
+    .suggestion-section {
+      gap: 1rem;
+
+      .suggestion-text {
+        color: #29235c;
+        font-size: 1.5rem;
+      }
+
+      .suggestion-value {
+        font-size: 2rem;
+        width: 100%;
+        text-align: justify;
+        background-color: #29235c;
+        border-radius: 10px;
+        padding: 0.4rem;
+        min-width: 200px;
+        text-align: center;
+      }
+    }
+  }
+}

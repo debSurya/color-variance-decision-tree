@@ -1,0 +1,28 @@
+{
+  "suggestionsMap": [
+    {
+      "value": "Farbeimer 15l blau",
+      "combination": { "q6": ["a2"] }
+    },
+    {
+      "value": "Farbeimer 15l rot",
+      "combination": { "q6": ["a1"] }
+    },
+    {
+      "value": "Farbeimer 15l grün",
+      "combination": { "q6": ["a3"] }
+    },
+    {
+      "value": "Farbeimer 15l gelb",
+      "combination": { "q6": ["a4"] }
+    },
+    {
+      "value": "Farbeimer 15l schwarz",
+      "combination": { "q6": ["a5"] }
+    },
+    {
+      "value": "Farbeimer 15l weiß",
+      "combination": { "q6": ["a6"] }
+    }
+  ]
+}

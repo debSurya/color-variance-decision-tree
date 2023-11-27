@@ -1,0 +1,73 @@
+.interactive-container {
+  gap: 1.5rem;
+
+  .q-text {
+    font-size: 2rem;
+    width: 100%;
+    text-align: justify;
+    background-color: #29235c;
+    border-radius: 10px;
+    padding: 0.5rem;
+    min-height: 100px;
+  }
+
+  .interactive-btn-select {
+    width: 100%;
+
+    .q-answers {
+      gap: 1rem;
+
+      .ans-btn {
+        background-color: #29235c;
+      }
+    }
+  }
+
+  .interactive-checkbox-select {
+    gap: 1rem;
+    width: 100%;
+
+    .q-answers {
+      .v-selection-control {
+        background-color: #29235c;
+        border-radius: 8px;
+        margin-bottom: 1rem;
+        padding-right: 1rem;
+
+        .v-label {
+          color: white;
+          opacity: 1;
+        }
+      }
+    }
+    .submit-answers {
+      background-color: #29235c;
+      width: 25%;
+      border: 2px solid #7a7991;
+    }
+  }
+
+  .interactive-radio-select {
+    gap: 1rem;
+    width: 100%;
+
+    .q-answers {
+      .v-selection-control {
+        background-color: #29235c;
+        border-radius: 8px;
+        margin-bottom: 1rem;
+        padding-right: 1rem;
+
+        .v-label {
+          color: white;
+          opacity: 1;
+        }
+      }
+    }
+    .submit-answer {
+      background-color: #29235c;
+      width: 25%;
+      border: 2px solid #7a7991;
+    }
+  }
+}

@@ -1,0 +1,15 @@
+.activity-wrapper {
+  height: 100vh;
+  background: rgb(38, 36, 59);
+  background: linear-gradient(
+    0deg,
+    rgba(38, 36, 59, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+
+  .questionnaire-wrapper {
+    padding: 1rem;
+    border-radius: 8px;
+    width: 70%;
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "qMap": [
+    {
+      "key": "q1",
+      "next": "q2"
+    },
+    {
+      "key": "q2",
+      "next": "q3"
+    },
+    {
+      "key": "q3",
+      "next": [
+        {
+          "forAns": "a1",
+          "nextQ": "q4"
+        },
+        {
+          "forAns": "a2",
+          "nextQ": "q5"
+        }
+      ]
+    },
+    {
+      "key": "q4",
+      "next": "q6"
+    },
+    {
+      "key": "q5",
+      "next": "q6"
+    },
+    {
+      "key": "q6",
+      "next": ""
+    }
+  ],
+  "questionnaire": {
+    "metadata": {
+      "total": 5
+    },
+    "questions": [
+      {
+        "key": "q1",
+        "type": "btn-select",
+        "question": "Anwendungsbereich",
+        "answers": [
+          { "key": "a1", "val": "Außen" },
+          { "key": "a2", "val": "Innen" }
+        ]
+      },
+      {
+        "key": "q2",
+        "type": "check-select",
+        "question": "Untergrund",
+        "answers": [
+          { "key": "a1", "val": "Holz" },
+          { "key": "a2", "val": "Fassade" },
+          { "key": "a3", "val": "Tapete" },
+          { "key": "a4", "val": "Putz" }
+        ]
+      },
+      {
+        "key": "q3",
+        "type": "btn-select",
+        "question": "Kennen Sie sich mit Deckkraft aus ?",
+        "answers": [
+          { "key": "a1", "val": "Ja" },
+          { "key": "a2", "val": "Nein" }
+        ]
+      },
+      {
+        "key": "q4",
+        "type": "radio-select",
+        "question": "Wie stark ?",
+        "answers": [
+          { "key": "a1", "val": "<95" },
+          { "key": "a2", "val": "95" },
+          { "key": "a3", "val": "98" },
+          { "key": "a4", "val": ">99,5" }
+        ]
+      },
+      {
+        "key": "q5",
+        "type": "btn-select",
+        "question": "Welcher Untergrund ?",
+        "answers": [
+          { "key": "a1", "val": "heller" },
+          { "key": "a2", "val": "dunkler" }
+        ]
+      },
+      {
+        "key": "q6",
+        "type": "check-select",
+        "question": "Farbton",
+        "answers": [
+          { "key": "a1", "val": "rot" },
+          { "key": "a2", "val": "blau" },
+          { "key": "a3", "val": "grün" },
+          { "key": "a4", "val": "gelb" },
+          { "key": "a5", "val": "schwarz" },
+          { "key": "a6", "val": "weiß" }
+        ]
+      }
+    ]
+  }
+}
